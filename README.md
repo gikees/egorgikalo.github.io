@@ -1,1 +1,0 @@
-# egorgikalo.github.io

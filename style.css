@@ -143,6 +143,14 @@ section {
   flex-shrink: 0;
 }
 
+.project-preview img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+}
+
 .preview-placeholder {
   width: 100%;
   aspect-ratio: 16 / 10;

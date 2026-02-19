@@ -141,6 +141,7 @@ section {
 .project-preview {
   width: 220px;
   flex-shrink: 0;
+  overflow: hidden;
 }
 
 .project-preview img {

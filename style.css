@@ -118,6 +118,51 @@ section {
   line-height: 1.7;
 }
 
+/* ── News ── */
+
+#news details summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+#news details summary::-webkit-details-marker {
+  display: none;
+}
+
+#news details summary h2 {
+  font-size: 1.5rem;
+  color: #111;
+  display: inline;
+}
+
+#news details summary h2::after {
+  content: ' ▸';
+  font-size: 0.9rem;
+  color: #999;
+}
+
+#news details[open] summary h2::after {
+  content: ' ▾';
+}
+
+.news-list {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.news-list li {
+  font-size: 0.95rem;
+  color: #444;
+  padding: 0.4rem 0;
+  line-height: 1.5;
+}
+
+.news-date {
+  font-weight: 600;
+  color: #111;
+  margin-right: 0.75rem;
+}
+
 /* ── Projects ── */
 
 #projects h2 {
